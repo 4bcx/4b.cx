@@ -1,0 +1,47 @@
+body {
+    font-family: 'KawkabMono', monospace;
+    margin: 0 auto;
+    max-width: 75ch;
+    padding: 10px;
+}
+pre {
+    overflow:auto;
+}
+h1 {
+    font-weight: bold;
+}
+code {
+    font-family: inherit;
+    font-weight: 200;
+}
+header, footer {
+    text-align: center;
+}
+footer {
+    font-weight: 200;
+    font-size: small;
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #191919;
+        filter: invert(1);
+    }
+}
+@font-face {
+    font-family: 'KawkabMono';
+    src: url('/fonts/KawkabMono-Regular.woff') format('woff'),
+        url('/fonts/KawkabMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'KawkabMono';
+    src: url('/fonts/KawkabMono-Light.woff') format('woff'),
+        url('/fonts/KawkabMono-Light.ttf') format('truetype');
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'KawkabMono';
+    src: url('/fonts/KawkabMono-Bold.woff') format('woff'),
+        url('/fonts/KawkabMono-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
