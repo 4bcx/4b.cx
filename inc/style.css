@@ -9,6 +9,7 @@ pre {
 }
 h1 {
     font-weight: bold;
+    margin-bottom: auto;
 }
 code {
     font-family: inherit;
@@ -20,6 +21,27 @@ header, footer {
 footer {
     font-weight: 200;
     font-size: small;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+nav a:hover {
+    text-decoration: none;
+}
+nav a:before {
+    content: "[";
+}
+nav a:after {
+    content: "]"
+}
+nav a:hover:before {
+    content: "<";
+}
+nav a:hover:after {
+    content: ">";
 }
 @media (prefers-color-scheme: dark) {
     body {
