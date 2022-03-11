@@ -11,6 +11,9 @@ h1 {
     font-weight: bold;
     margin-bottom: auto;
 }
+h1 a:hover {
+    text-decoration: none;
+}
 code {
     font-family: inherit;
     font-weight: 200;
@@ -46,6 +49,9 @@ nav a:hover:after {
 @media (prefers-color-scheme: dark) {
     body {
         background: #191919;
+        filter: invert(1);
+    }
+    img {
         filter: invert(1);
     }
 }
