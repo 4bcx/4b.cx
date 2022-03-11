@@ -8,6 +8,7 @@ pages:
   script:
   - mkdir -p out
   - cp -r inc/* out/
+  - for ESHT in $( find src -type f -name '*.esht' ! -empty ); do HTML="out${ESHT#src}"; HTML="${HTML%.esht}"; mkdir -p $( dirname $HTML ); cat prt/header.html.part > $HTML; ./lib/esht/esht -x $ESHT >> $HTML; cat prt/footer.html.part >> $HTML; done
   - for PART in $( find src -type f -name '*.part' ! -empty ); do HTML="out${PART#src}"; HTML="${HTML%.part}"; mkdir -p $( dirname $HTML ); cat prt/header.html.part $PART prt/footer.html.part > $HTML; done
   - for MARK in $( find src -type f -name '*.md' ! -empty ); do HTML="out${MARK#src}"; HTML="${HTML%.md}.html"; mkdir -p $( dirname $HTML ); cat prt/header.html.part > $HTML; sed 's/^#/##/g' $MARK | markdown >> $HTML; cat prt/footer.html.part >> $HTML; done
   - for FILE in $( find src -type f ! -name '*.md' ! -name '*.part' ! -empty ); do DEST="out${FILE#src}"; mkdir -p $( dirname $DEST ); cp $FILE $DEST; done
