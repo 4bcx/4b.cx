@@ -31,3 +31,5 @@ tags
 .history
 .ionide
 out/
+tmp/
+public/
