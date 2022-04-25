@@ -3,9 +3,9 @@
   <head>
     $[ if [ -f "${META}" ]; then . ${META}; fi ]
     $[ URL="${META#tmp/}"; URL="https://4b.cx/${URL%.meta}" ]
-    $[ title="${title:-'Ahmed (4bcx) Alaa'}" ]
-    $[ description="${description:-'Ahmed (4bcx) Alaa personal website'}" ]
-    $[ image="${image:-'/images/android-chrome-512x512.png'}"; image="https://4b.cx/${image#/}" ]
+    $[ title="${title:-Ahmed (4bcx) Alaa}" ]
+    $[ description="${description:-Ahmed (4bcx) Alaa personal website}" ]
+    $[ image="${image:-/images/android-chrome-512x512.png}"; image="https://4b.cx/${image#/}" ]
     <title>$[ printf '%s' "${title:-Ahmed (4bcx) Alaa}" ]</title>
     <meta name="title" content="$[ printf '%s' "${title}" ]">
     <meta name="description" content="$[ printf '%s' "${description}" ]">
