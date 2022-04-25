@@ -1,0 +1,10 @@
+lib/reveal.js/dist/reset.css                    reveal.js/style/reset.css
+lib/reveal.js/dist/reveal.css                   reveal.js/style/reveal.css
+lib/reveal.js/dist/theme/black.css              reveal.js/style/theme/black.css
+lib/reveal.js/dist/theme/fonts/source-sans-pro  reveal.js/style/theme/fonts/source-sans-pro
+lib/reveal.js/plugin/highlight/monokai.css      reveal.js/style/highlight/monokai.css
+lib/reveal.js/dist/reveal.js                    reveal.js/js/reveal.js
+lib/reveal.js/dist/reveal.js.map                reveal.js/js/reveal.js.map
+lib/reveal.js/plugin/notes/notes.js             reveal.js/js/plugin/notes.js
+lib/reveal.js/plugin/markdown/markdown.js       reveal.js/js/plugin/markdown.js
+lib/reveal.js/plugin/highlight/highlight.js     reveal.js/js/plugin/highlight.js

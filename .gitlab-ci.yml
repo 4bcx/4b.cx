@@ -1,5 +1,8 @@
 image: alpine:latest
 
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
 pages:
   stage: deploy
   before_script:
@@ -9,10 +12,12 @@ pages:
   - mkdir -p tmp out
   - cp -r src/* tmp/
   - cp -r inc/* out/
+  - while read -r SRC DIST; do mkdir -p "out/$( dirname ${DIST} )"; cp -ar "${SRC}" "out/${DIST}"; done < map
   - for ESHT in $( find tmp -type f -name '*.esht' ! -empty ); do DEST="${ESHT%.esht}"; ./lib/esht/esht -x $ESHT $DEST; rm $ESHT; done
+  - for PSLI in $( find tmp -type f -name '*.psli' ! -empty ); do HTML="out${PSLI#tmp}"; HTML="${HTML%.psli}"; mkdir -p $( dirname $HTML ); cat prt/header.html.psli $PSLI prt/footer.html.psli > $HTML; done
   - for PART in $( find tmp -type f -name '*.part' ! -empty ); do HTML="out${PART#tmp}"; HTML="${HTML%.part}"; mkdir -p $( dirname $HTML ); cat prt/header.html.part $PART prt/footer.html.part > $HTML; done
   - for MARK in $( find tmp -type f -name '*.md' ! -empty ); do HTML="out${MARK#tmp}"; HTML="${HTML%.md}.html"; mkdir -p $( dirname $HTML ); cat prt/header.html.part > $HTML; sed 's/^#/##/g' $MARK | markdown >> $HTML; cat prt/footer.html.part >> $HTML; done
-  - for FILE in $( find tmp -type f ! -name '*.md' ! -name '*.part' ! -empty ); do DEST="out${FILE#tmp}"; mkdir -p $( dirname $DEST ); cp $FILE $DEST; done
+  - for FILE in $( find tmp -type f ! -name '*.md' ! -name '*.part' ! -name '*.psli' ! -empty ); do DEST="out${FILE#tmp}"; mkdir -p $( dirname $DEST ); cp $FILE $DEST; done
   - rm -fr tmp
   after_script:
   - mv out public

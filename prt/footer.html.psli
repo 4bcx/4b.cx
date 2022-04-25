@@ -1,0 +1,15 @@
+
+		</div>
+
+		<script src="/reveal.js/js/reveal.js"></script>
+		<script src="/reveal.js/js/plugin/notes.js"></script>
+		<script src="/reveal.js/js/plugin/markdown.js"></script>
+		<script src="/reveal.js/js/plugin/highlight.js"></script>
+		<script>
+			Reveal.initialize({
+				hash: true,
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
