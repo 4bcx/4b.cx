@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    $[ if [ -f "${META}" ]; then . ${META}; fi ]
+    $[ URL="${META#tmp/}"; URL="https://4b.cx/${URL%.meta}" ]
+    $[ title="${title:-'Ahmed (4bcx) Alaa'}" ]
+    $[ description="${description:-'Ahmed (4bcx) Alaa personal website'}" ]
+    $[ image="${image:-'/images/android-chrome-512x512.png'}"; image="https://4b.cx/${image#/}" ]
+    <title>$[ printf '%s' "${title:-Ahmed (4bcx) Alaa}" ]</title>
+    <meta name="title" content="$[ printf '%s' "${title}" ]">
+    <meta name="description" content="$[ printf '%s' "${description}" ]">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="$[ printf '%s' "${URL}" ]">
+    <meta property="og:title" content="$[ printf '%s' "${title}" ]">
+    <meta property="og:description" content="$[ printf '%s' "${description}" ]">
+    <meta property="og:image" content="$[ printf '%s' "${image}" ]">
+    <meta property="twitter:card" content="$[ printf '%s' "${image}" ]">
+    <meta property="twitter:url" content="$[ printf '%s' "${URL}" ]">
+    <meta property="twitter:title" content="$[ printf '%s' "${title}" ]">
+    <meta property="twitter:description" content="$[ printf '%s' "${description}" ]">
+    <meta property="twitter:image" content="$[ printf '%s' "${image}" ]">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="/reveal.js/style/reset.css">
+    <link rel="stylesheet" href="/reveal.js/style/reveal.css">
+    <link rel="stylesheet" href="/reveal.js/style/theme/black.css">
+    <link rel="stylesheet" href="/reveal.js/style/highlight/monokai.css">
+    <link rel="android-chrome" sizes="512x512" href="/images/android-chrome-512x512.png">
+    <link rel="android-chrome" sizes="192x192" href="/images/android-chrome-192x192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  </head>
+  <body>
+    <div class="reveal">
