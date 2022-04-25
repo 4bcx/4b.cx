@@ -15,12 +15,12 @@
   <body>
     <header>
       <h1><a href="/">4b.cx</a></h1>
-      <!--<nav>-->
-        <!--<a href="/h.html">[/h]ome</a>-->
-        <!--<a href="/a.html">[/a]bout</a>-->
-        <!--<a href="/b.html">[/b]log</a>-->
-        <!--<a href="/p.html">[/p]rojects</a>-->
-      <!--</nav>-->
+      <nav>
+        <a href="/a.html">about</a>
+        <a href="/b.html">blog</a>
+        <a href="/p.html">projects</a>
+        <a href="/s.html">slides</a>
+      </nav>
     </header>
     <hr />
     <main>

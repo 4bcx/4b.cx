@@ -2,7 +2,7 @@
 <img src="/images/avatar.jpg" alt="Ahmed Alaa" width="100%" height="auto">
 <ul>
   <li>That&apos;s me while on a trip to <a href="https://goo.gl/maps/ESqgyQegbzQc7eGHA">Mount Catherine</a> and my name is in the <code>&lt;h2&gt;</code> tag</li>
-  <li>I have <a href="https://twitter.com/Esraa_nasr92">the most awesome wife</a>, and she made me a <a href="https://www.instagram.com/p/CEmjJNlgLBY/">little devil</a></li>
+  <li>I have <a href="https://twitter.com/__ecupcake">the most awesome wife</a>, and she made me a <a href="https://www.instagram.com/p/CEmjJNlgLBY/">little devil</a></li>
   <li>Currently, I manage a <a href="https://web.facebook.com/EMEBORG">technology lab</a> for <a href="https://itida.gov.eg">ITIDA</a></li>
   <li>And I post pictures on <a href="https://www.instagram.com/4b_cx">Instagram</a>, rant on <a href="https://twitter.com/4b_cx">Twitter</a>, try to regularly put code on <a href="https://gitlab.com/4bcx">GitLab</a> and <a href="https://github.com/4bcx">GitHub</a>, and write <a href="mailto:aa@4b.cx">emails</a> with many <a href="https://twitter.com/itsnashflynn/status/1440002336999583748">bullet-points</a></li>
 </ul>
@@ -14,4 +14,5 @@
   <li>The website favicon is generated from <a href="https://favicon.io/emoji-favicons/man-technologist">favicon.io</a></li>
   <li>The <a href="https://github.com/twitter/twemoji/blob/master/assets/svg/1f468-200d-1f4bb.svg">emoji graphic</a> used as the favicon is from the open source project <a href="https://twemoji.twitter.com/">Twemoji</a> and is licensed under <a href="/licenses/Twemoji">CC-BY 4.0</a></li>
   <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Rick Astly</a>&apos;s ascii art used here is from <a href="https://copypastatext.com/rick-roll">copypastatext.com</a></li>
+  <li>The presentations utilize <a href="https://hakim.se/">Hakim El Hattab</a>&rsquo;s <a href="https://revealjs.com/">reveal.js</a>, The HTML presentation framework</li>
 </ul>

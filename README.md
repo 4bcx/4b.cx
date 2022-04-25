@@ -11,6 +11,7 @@ There is a `.gitlab-ci.yml` file here responsible for gluing the header and foot
 - The website favicon is generated from [favicon.io](https://favicon.io/emoji-favicons/man-technologist)
 - The [emoji graphic](https://github.com/twitter/twemoji/blob/master/assets/svg/1f468-200d-1f4bb.svg) used as the favicon is from the open source project [Twemoji](https://twemoji.twitter.com/) and is licensed under [CC-BY 4.0](/licenses/Twemoji)
 - [Rick Astly](https://www.youtube.com/watch?v=dQw4w9WgXcQ)'s ascii art used here is from [copypastatext.com](https://copypastatext.com/rick-roll)
+- The presentations utilize [Hakim El Hattab](https://hakim.se/)'s [reveal.js](https://revealjs.com/), The HTML presentation framework
 
 ## License
 This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)

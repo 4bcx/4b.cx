@@ -28,6 +28,9 @@ footer {
 a {
     text-decoration: none;
 }
+a.external:after {
+    content: "⧉";
+}
 a:hover {
     text-decoration: underline;
 }
@@ -40,11 +43,17 @@ nav a:before {
 nav a:after {
     content: "]"
 }
+nav a.external:after {
+    content: "⧉]";
+}
 nav a:hover:before {
     content: "<";
 }
 nav a:hover:after {
     content: ">";
+}
+nav a.external:hover:after {
+    content: "⧉>";
 }
 @media (prefers-color-scheme: dark) {
     body {
