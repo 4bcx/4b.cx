@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     $[ if [ -f "${META}" ]; then . ${META}; fi ]
-    $[ URL="${META#tmp/}"; URL="https://4b.cx/${URL%.meta}" ]
+    $[ URL="${META#tmp/}"; URL=${URL%.meta}; URL=${URL%index}; URL="https://4b.cx/${URL}" ]
     $[ title="${title:-Ahmed (4bcx) Alaa}" ]
     $[ description="${description:-Ahmed (4bcx) Alaa personal website}" ]
     $[ image="${image:-/images/android-chrome-512x512.png}"; image="https://4b.cx/${image#/}" ]
