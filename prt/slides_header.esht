@@ -6,7 +6,7 @@
     $[ title="${title:-Ahmed (4bcx) Alaa}" ]
     $[ description="${description:-Ahmed (4bcx) Alaa personal website}" ]
     $[ image="${image:-/images/android-chrome-512x512.png}"; image="https://4b.cx/${image#/}" ]
-    <title>$[ printf '%s' "${title:-Ahmed (4bcx) Alaa}" ]</title>
+    <title>$[ printf '%s' "${title}" ]</title>
     <meta name="title" content="$[ printf '%s' "${title}" ]">
     <meta name="description" content="$[ printf '%s' "${description}" ]">
     <meta property="og:type" content="website">
@@ -14,7 +14,7 @@
     <meta property="og:title" content="$[ printf '%s' "${title}" ]">
     <meta property="og:description" content="$[ printf '%s' "${description}" ]">
     <meta property="og:image" content="$[ printf '%s' "${image}" ]">
-    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:card" content="summary_large_image" >
     <meta property="twitter:url" content="$[ printf '%s' "${URL}" ]">
     <meta property="twitter:title" content="$[ printf '%s' "${title}" ]">
     <meta property="twitter:description" content="$[ printf '%s' "${description}" ]">
