@@ -32,10 +32,10 @@
     <header>
       <h1><a href="/">4b.cx</a></h1>
       <nav>
-        <a href="/a">about</a>
-        <a href="/b">blog</a>
-        <a href="/p">projects</a>
-        <a href="/s">slides</a>
+        <a href="/a/">about</a>
+        <a href="/b/">blog</a>
+        <a href="/p/">projects</a>
+        <a href="/s/">slides</a>
       </nav>
     </header>
     <hr />

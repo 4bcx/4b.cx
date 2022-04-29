@@ -1,0 +1,348 @@
+    <div class="slides">
+      <section>
+        <section>
+          <img src="oshe/oshw-logo-outline-light.svg" alt="Open-source hardware logo" style="display: inline-block; vertical-align: middle;" />
+          <h1 style="display: inline-block; vertical-align: middle;">&times; Egypt</h1>
+        </section>
+        <section>
+          <h1>Introduction</h1>
+        </section>
+        <section>
+          <h2>Agenda</h2>
+          <div class="r-stack">
+            <ul class="fragment fade-out" data-fragment-index="0">
+              <li>What <em>Open-Source</em> really means</li>
+              <li>A bit of history</li>
+              <li>The open-source way</li>
+              <li>Copyrights and licenses</li>
+              <li>Pros and cons of open-source projects</li>
+            </ul>
+            <ul class="fragment current-visible" data-fragment-index="0">
+              <li>Study: impact of open-source software<br />and hardware on the EU economy</li>
+              <li>Why open-source hardware is important<br />to us in Egypt</li>
+            </ul>
+            <ul class="fragment">
+              <li>Examples of open-source hardware<br />products, businesses and communities</li>
+              <li>THE community calls</li>
+            </ul>
+          </div>
+        </section>
+      </section>
+      <section>
+        <section>
+          <h2>What <em>Open-Source</em> really means</h2>
+            <q>A <span class="fragment highlight-blue">product</span> that is made <span class="fragment highlight-blue">freely available</span> for possible <span class="fragment highlight-blue">modification</span> and <span class="fragment highlight-blue">redistribution</span></q>
+        </section>
+        <section>
+          <h3>A product can be a</h3>
+          <ul style="display: inline-block;">
+            <li>Computer program</li>
+            <li>Machine</li>
+            <li>Drink</li>
+            <li>Image</li>
+          </ul>
+          <ul style="display: inline-block;">
+            <li>Electronics circuit</li>
+            <li>This presentation</li>
+            <li>Song</li>
+            <li>Article</li>
+          </ul>
+        </section>
+        <section>
+          <h3>Freely available means</h3>
+          <p>The <span class="fragment highlight-green">information about the product</span> is accessible. It does not necessarily mean that <span class="fragment highlight-red">the product itself</span> is free.</p>
+        </section>
+        <section>
+          <h3>Source means</h3>
+          <ul style="display: inline-block;">
+            <li>Code</li>
+            <li>Assembly instructions</li>
+            <li>Recipe</li>
+          </ul>
+          <ul style="display: inline-block;">
+            <li>Bill of material</li>
+            <li>Schematic and layout</li>
+            <li>Documentation</li>
+          </ul>
+        </section>
+        <section>
+          <h3>Purposes</h3>
+          <ul style="display: inline-block;">
+            <li>Modify to specific need</li>
+            <li>Add features</li>
+            <li>Repurpose</li>
+          </ul>
+          <ul style="display: inline-block;">
+            <li>Commercialize</li>
+            <li>Provide support</li>
+            <li>Make add-ons</li>
+          </ul>
+        </section>
+      </section>
+      <section>
+        <section>
+          <h2>A bit of history</h2>
+          <div class="r-stack">
+            <ul class="fragment fade-out" data-fragment-index="0">
+              <li>Henry Ford's case against ALAM in 1911</li>
+              <li>Software by academics and corporate<br />research labs in 1950s and 60s</li>
+              <li>ARPANET in 1969</li>
+            </ul>
+            <ul class="fragment current-visible" data-fragment-index="0">
+              <li>Decline between 1960 - 1980
+                <ul>
+                  <li>Growth of standalone software industry</li>
+                  <li>IBM antitrust lawsuit in 1969</li>
+                  <li>UNIX v4 in 1973</li>
+                  <li>1974 US CONTU</li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="fragment fade-in-then-out">
+              <li>GNU project in 1983 and FSF in 1985</li>
+              <li>Linux kernel in 1991</li>
+              <li>Open Source Definition and OSI in 1998</li>
+              <li>FreeIO website in early 2000s</li>
+              <li>Open-source hardware companies in mid 2000s</li>
+            </ul>
+            <ul class="fragment">
+              <li>TAPR OHL in 2007</li>
+              <li>CERN OHL in 2011</li>
+              <li>OSHWA in 2012</li>
+            </ul>
+          </div>
+        </section>
+      </section>
+      <section>
+        <section>
+          <h2>The open-source way</h2>
+          <table>
+            <tr>
+              <td class="fragment fade-in" style="border: none; vertical-align: middle; text-align: center; background: darkblue;">Transparency</td>
+              <td class="fragment fade-in" style="border: none; vertical-align: middle; text-align: center; background: darkgoldenrod;">Collaboration</td>
+              <td class="fragment fade-in" style="border: none; vertical-align: middle; text-align: center; background: darkgreen;">Rabid prototyping</td>
+            </tr>
+            <tr>
+              <td class="fragment fade-in" style="border: none; vertical-align: middle; text-align: center; background: darkmagenta;">Iterative approach</td>
+              <td class="fragment fade-in" style="border: none; vertical-align: middle; text-align: center; background: darkred;">Inclusive meritocricy</td>
+              <td class="fragment fade-in" style="border: none; vertical-align: middle; text-align: center; background: darkslategray;">Community</td>
+            </tr>
+          </table>
+        </section>
+      </section>
+      <section>
+        <section>
+          <h2>Copyrights and licenses</h2>
+          <ul>
+            <li>Copyright is the legal term used to declare and prove who owns the intellectual property</li>
+            <li>Licensing is the legal term used to describe the terms under which people are allowed to use the copyrighted material</li>
+          </ul>
+        </section>
+        <section>
+          <h3>Licensing examples</h3>
+          <div class="r-stack">
+            <div class="fragment fade-out" data-fragment-index="0">
+              <h4>Non-free</h4>
+              <table style="font-size: 1.5rem;">
+                <tr>
+                  <th></th>
+                  <th>Trade secret</th>
+                  <th>Proprietary</th>
+                  <th>Non-commercial</th>
+                </tr>
+                <tr>
+                  <th>Description</th>
+                  <td>No information made public</td>
+                  <td>Traditional use of copyright; no rights need be granted</td>
+                  <td>Grants rights for non-commercial use only</td>
+                </tr>
+                <tr>
+                  <th>Examples for software</th>
+                  <td>Private, internal software</td>
+                  <td>Proprietary software, no public license</td>
+                  <td>JRL, AFPL</td>
+                </tr>
+                <tr>
+                  <th>Examples for other works</th>
+                  <td>Unpublished</td>
+                  <td>Copyright, no public license</td>
+                  <td>CC-BY-NC</td>
+                </tr>
+              </table>
+            </div>
+            <div class="fragment" data-fragment-index="0">
+              <h4>Free/Open</h4>
+              <table style="font-size: 1.5rem;">
+                <tr>
+                  <th></th>
+                  <th>Copyleft</th>
+                  <th>Permissive</th>
+                  <th>Public domain</th>
+                </tr>
+                <tr>
+                  <th>Description</th>
+                  <td>Grants use rights, forbids proprietization</td>
+                  <td>Grants use rights, including right to relicense</td>
+                  <td>Grants all rights</td>
+                </tr>
+                <tr>
+                  <th>Examples for software</th>
+                  <td>GPL, AGPL</td>
+                  <td>MIT, Apache, MPL</td>
+                  <td>PD, CC0</td>
+                </tr>
+                <tr>
+                  <th>Examples for other works</th>
+                  <td>CC-BY-SA</td>
+                  <td>CC-BY</td>
+                  <td>PD, CC0</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section>
+        <section>
+          <h2>Pros and cons of open-source projects</h2>
+          <small>It depends on how you look at it</small>
+        </section>
+        <section>
+          <h3>Cost</h3>
+          <ul>
+            <li class="fragment highlight-green" data-fragment-index="0">Not free, but initial cost is significantly lower</li>
+            <li class="fragment highlight-red" data-fragment-index="0">Maintenance cost can increase exponentially</li>
+          </ul>
+        </section>
+        <section>
+          <h3>Reliability and support</h3>
+          <ul>
+            <li class="fragment highlight-green" data-fragment-index="0">Have many maintainers and reviewers</li>
+            <li class="fragment highlight-red" data-fragment-index="0">Depends mainly on community support</li>
+          </ul>
+        </section>
+        <section>
+          <h3>Lifetime</h3>
+          <ul>
+            <li class="fragment highlight-green" data-fragment-index="0">Independent of corporates lifetime</li>
+            <li class="fragment highlight-red" data-fragment-index="0">May fail to gain community interest</li>
+          </ul>
+        </section>
+        <section>
+          <h3>Security</h3>
+          <ul>
+            <li class="fragment highlight-red" data-fragment-index="0">Vulnerabilities are found faster</li>
+            <li class="fragment highlight-green" data-fragment-index="0">They also get patched faster</li>
+          </ul>
+        </section>
+        <section>
+          <h3>Usability</h3>
+          <ul>
+            <li class="fragment highlight-green" data-fragment-index="0">Open or known standards and conventions</li>
+            <li class="fragment highlight-red" data-fragment-index="0">Maintainer preferences are dominant</li>
+          </ul>
+        </section>
+      </section>
+      <section data-background-iframe="https://openforumeurope.org/open-source-impact-study/" data-background-interactive>
+        <div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+          <h2>Study: impact of open-source software and hardware on the EU economy</h2>
+        </div>
+      </section>
+      <section>
+        <section>
+          <h2>Why open-source hardware is important to us in Egypt</h2>
+          <small>May be a bit opinionated</small>
+        </section>
+        <section>
+          <h3>Currently</h3>
+          <div class="r-stack">
+            <q class="fragment fade-out" data-fragment-index="0">The majority of startups working on IoT applications, wearable electronics, digital fabrication machines and digitally fabricated products, have based their work on successful or well-known open-hardware projects.</q>
+            <q class="fragment fade-in-then-out" data-fragment-index="0">Learning programs in the fields of embedded systems, electronics design, and mechanical design utilize open-source hardware.</q>
+            <q class="fragment">Many development boards sold here are cheaper clones of the more expensive original ones. And a few are produced locally.</q>
+          </div>
+        </section>
+        <section>
+          <h3>For the future</h3>
+          <ul>
+            <li>Leads to rapid products development</li>
+            <li>Lowers entry <em>cost</em></li>
+            <li>Deepens and builds upon existing knowledge</li>
+            <li>Helps indiviuals improce their skills</li>
+            <li>Shifts the focus to unsolved problems</li>
+          </ul>
+        </section>
+      </section>
+      <section>
+        <section>
+          <h2>Examples of open-source hardware</h2>
+          <div class="r-stack">
+            <div class="fragment fade-out" data-fragment-index="0">
+              <h3>Products</h3>
+              <ul style="display: inline-block; vertical-align: middle;">
+                <li><a href="https://github.com/arduino/">Arduino</a></li>
+                <li><a href="https://www.raspberrypi.com/documentation/computers/raspberry-pi.html">Raspberry Pi</a></li>
+                <li><a href="https://github.com/OpenROV">OpenROV</a></li>
+                <li><a href="https://github.com/solokeys">Solokey</a></li>
+              </ul>
+              <ul style="display: inline-block; vertical-align: middle;">
+                <li><a href="https://github.com/Ultimaker">Ultimaker</a></li>
+                <li><a href="https://github.com/prusa3d">Prusa</a></li>
+                <li><a href="https://github.com/usbarmory">USB armory</a></li>
+                <li><a href="https://certification.oshwa.org/list.html">.. and many more</a></li>
+              </ul>
+            </div>
+            <div class="fragment fade-in-then-out " data-fragment-index="0">
+              <h3>Businesses</h3>
+              <ul style="display: inline-block; vertical-align: middle;">
+                <li><a href="https://www.adafruit.com/">Adafruit</a></li>
+                <li><a href="https://www.sparkfun.com/">SparkFun</a></li>
+                <li><a href="http://www.cosylab.com/">Cosylab</a></li>
+                <li><a href="http://www.creotech.pl/">CREOTECH</a></li>
+              </ul>
+              <ul style="display: inline-block; vertical-align: middle;">
+                <li><a href="http://www.gl-research.com/">GL-Research</a></li>
+                <li><a href="http://www.synctechnology.cn/en_index.aspx">SyncTechnology</a></li>
+                <li><a href="http://www.sevensols.com/">Seven Solutions</a></li>
+                <li><a href="https://ohwr.org/companies">.. and many more</a></li>
+              </ul>
+            </div>
+            <div class="fragment">
+              <h3>Communities</h3>
+              <ul style="display: inline-block; vertical-align: middle;">
+                <li><a href="https://hackaday.com/">Hackaday</a></li>
+                <li><a href="https://www.hackster.io/">Hackster.io</a></li>
+                <li><a href="https://www.instructables.com/">Instructables</a></li>
+                <li><a href="https://www.eevblog.com/">EEVblog</a></li>
+              </ul>
+              <ul style="display: inline-block; vertical-align: middle;">
+                <li><a href="https://www.allaboutcircuits.com/">All About Circuits</a></li>
+                <li><a href="http://dangerousprototypes.com/">Dangerous Prototypes</a></li>
+                <li><a href="https://electronics.stackexchange.com/">Stack Exchange</a></li>
+                <li><a href="https://www.seeedstudio.com/blog/2019/01/02/top-open-source-hardware-websites-and-community-in-2019/">.. and many more</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section>
+        <h2>THE community calls</h2>
+          <img class="r-stretch" src="oshe/the.svg" alt="technology hubs of egypt community group" />
+          <a href="https://discord.gg/5b6cs4bmfT"><small>discord.gg/5b6cs4bmfT</small></a>
+      </section>
+      <section>
+        <section>
+          <p class="r-fit-text">Thanks!</p>
+        </section>
+        <section>
+          <h2>Read more</h2>
+          <ul>
+            <li><a href="https://openforumeurope.org/open-source-impact-study/">Study on the impact of open-source<br />for the European Commission</a></li>
+            <li><a href="https://openhardware.metajnl.com/articles/10.5334/joh.4/">Article on emerging business models<br />for open-source hardware</a></li>
+            <li><a href="https://www.oshwa.org/">OSHWA website</a></li>
+          </ul>
+        </section>
+        <section>
+          <small><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" /></a><br />This work by <a xmlns:cc="http://creativecommons.org/ns#" href="https://4b.cx/" property="cc:attributionName" rel="cc:attributionURL">Ahmed Alaa</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a><br />Publised on <a href="https://4b.cx/s/oshe01">4b.cx/s/oshe01</a></small>
+        </section>
+      </section>
+    </div>

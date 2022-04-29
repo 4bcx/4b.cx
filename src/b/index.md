@@ -1,3 +1,4 @@
 # Blog
 
-- [Initial](/b/001_Init)
+- [oshe01](/b/oshe01) Open-source hardware in Egypt (Introduction)
+
