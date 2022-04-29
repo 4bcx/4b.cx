@@ -15,7 +15,7 @@ pages:
   - while read -r SRC DIST; do mkdir -p "out/$( dirname ${DIST} )"; cp -ar "${SRC}" "out/${DIST}"; done < map
   - for ESHT in $( find tmp -type f -name '*.esht' ! -empty ); do DEST="${ESHT%.esht}"; ./lib/esht/esht -x $ESHT $DEST; rm $ESHT; done
   - for MARK in $( find tmp -type f -name '*.md' ! -empty ); do PART="${MARK%.md}.html.part"; sed 's/^#/##/g' $MARK | markdown > $PART; rm $MARK; done
-  - for PSLI in $( find tmp -type f -name '*.psli' ! -empty ); do HTML="out${PSLI#tmp}"; HTML="${HTML%.psli}"; mkdir -p $( dirname $HTML ); ./lib/esht/esht -x -e META="${PART%.html.psli}.meta" -- prt/slides_header.esht > $HTML; cat $PSLI prt/slides_footer.part >> $HTML; done
+  - for PSLI in $( find tmp -type f -name '*.psli' ! -empty ); do HTML="out${PSLI#tmp}"; HTML="${HTML%.psli}"; mkdir -p $( dirname $HTML ); ./lib/esht/esht -x -e META="${PSLI%.html.psli}.meta" -- prt/slides_header.esht > $HTML; cat $PSLI prt/slides_footer.part >> $HTML; done
   - for PART in $( find tmp -type f -name '*.part' ! -empty ); do HTML="out${PART#tmp}"; HTML="${HTML%.part}"; mkdir -p $( dirname $HTML ); ./lib/esht/esht -x -e META="${PART%.html.part}.meta" -- prt/header.esht > $HTML; cat $PART prt/footer.part >> $HTML; done
   - for FILE in $( find tmp -type f ! -name '*.part' ! -name '*.psli' ! -name '*.meta' ! -empty ); do DEST="out${FILE#tmp}"; mkdir -p $( dirname $DEST ); cp $FILE $DEST; done
   - rm -fr tmp
